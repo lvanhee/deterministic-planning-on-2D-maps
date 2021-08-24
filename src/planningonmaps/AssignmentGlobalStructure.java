@@ -6,10 +6,10 @@ import java.nio.file.Paths;
 
 import deterministicplanning.models.Plan;
 import deterministicplanning.models.WorldModel;
-import deterministicplanning.solvers.FailedPlanningOutcome;
 import deterministicplanning.solvers.Planning;
-import deterministicplanning.solvers.PlanningOutcome;
-import deterministicplanning.solvers.SuccessfulPlanningOutcome;
+import deterministicplanning.solvers.planningoutcomes.FailedPlanningOutcome;
+import deterministicplanning.solvers.planningoutcomes.PlanningOutcome;
+import deterministicplanning.solvers.planningoutcomes.SuccessfulPlanningOutcome;
 import finitestatemachine.Action;
 import finitestatemachine.State;
 import obstaclemaps.MapDisplayer;
